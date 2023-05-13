@@ -1,0 +1,48 @@
+.products {
+    &__ship-wrap {
+        min-height: 800px;
+        background: url('../img/ship_bg.png') center center / cover no-repeat;
+    }
+    &__battery-wrap {
+        min-height: 400px;
+        background: url('../img/battery_bg.png') center center / cover no-repeat;
+    }
+    &__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        max-width: 530px;
+        width: 100%;
+        min-height: 400px;
+        background: rgba(44, 44, 44, 0.8);
+        backdrop-filter: blur(2.5px);
+        &-wrap {
+            max-width: 350px;
+            width: 100%;
+        }
+        &_right {
+            margin-left: 49%;
+            border-radius: 0 0 20px 0;
+        }
+        &_left {
+            margin-left: 6%;
+            border-radius: 20px 0 0 20px;
+        }
+        &_battery {
+            border-radius: 0 20px 0 0;
+        }
+    }
+    &__text {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        &_small {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #CECECE;
+            margin-top: 15px;
+        }
+    }
+}
